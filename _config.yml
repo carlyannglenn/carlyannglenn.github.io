@@ -17,9 +17,9 @@ title: Carly Ann Glenn
 email: carly.a.glenn@gmail.com
 description: > # Welcome to my site!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://carlyannglenn.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: carlyannglenn
-github_username:  carlyannglenn
+twitter_url: https://twitter.com/carlyannglenn
 
 # Build settings
 markdown: kramdown

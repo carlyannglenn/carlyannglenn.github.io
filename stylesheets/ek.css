@@ -1,0 +1,126 @@
+html, body {
+	/*background-image: url("./img/noise.png");
+	background-repeat: repeat-x repeat-y;
+	background-color: #ffffff;*/
+
+	height: 100%;
+
+	background-color: #fafafa;
+}
+
+#home {
+	background-repeat: no-repeat;
+	background-size: 75px 75px;
+
+	width: 75px;
+	height: 75px;
+
+	/* Hide it. */
+	text-indent: -9999px;
+
+	padding: 0 0 0 0;
+
+	float: left;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -75px auto;
+	/* Pad bottom by footer height */
+	padding: 0 0 75px 0;
+}
+
+#avi {
+
+}
+
+/* The top nav bar. */
+#menu-site-navigation {
+	float: right;
+}
+#menu-site-navigation li a {
+	font-size: 1.00em;
+	margin: 0.50em 0px auto 0;
+	color: #999999;
+}
+#menu-site-navigation li.current-menu-item a {
+	color: #333333;
+}
+/* The top nav bar. */
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 75px;
+  background-color: #f0f0f0;
+  /*background-image: url("/images/notecard.png");*/
+}
+#footer p {
+	padding: 30px 0 0 0;
+}
+
+.navbar, .navbar-default {
+	border: none;
+	background-color: transparent;
+}
+
+.page-header {
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+}
+
+ul.thumbnail-list {
+	list-style: none;
+	list-style-position: inside;
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+ul.thumbnail-list li {
+	padding: 0 auto 0 auto;
+	margin: 0 0 0 0;
+}
+
+pre {
+  display: block;
+  padding: 15px 5px 15px 5px;
+  margin: 0 0 0 0;
+  font-size: 13px;
+  line-height: 1.00em;
+  color: #333333;
+  word-break: keep-all;
+  word-wrap: none;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+}
+pre code {
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.50em;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+div.tagline .glyphicon {
+  padding-right: 0.75em;
+}
+
+div.post-content {
+  margin-bottom: 50px;
+}
+
+div.meta-line {
+  padding-bottom: 1.50em;
+}
+
+div.panel-heading {
+	height: 375px;
+}

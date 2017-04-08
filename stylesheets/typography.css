@@ -1,0 +1,126 @@
+
+h1, h3, h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+h2, h4, h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #333333;
+}
+
+hr {
+  display: block;
+  margin-top: 0.50em;
+  margin-bottom: 0.50em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #eeeeee;
+  border-style: solid;
+  border-width: 1px;
+}
+
+p, ul {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+
+  margin: 1.00px 0 1.00em 0;
+}
+
+li {
+  margin: 0.50em 0 0.50em 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+a:active, a:focus, a:hover {
+  text-decoration: none;
+}
+
+.social-icon {
+  height: 30px;
+}
+
+.kicker {
+}
+
+span.strike {
+  text-decoration: line-through;
+}
+
+blockquote.notecard {
+  font-size: 1.00em;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+
+  margin: 0 auto 1.50em auto;
+  padding: 1.25em 1.25em 1.25em 1.25em;
+  border: none;
+  width: 75%;
+
+  background-image: url("/images/notecard.png");
+
+  -webkit-box-shadow: 0 3px 5px 3px #cccccc;
+  -moz-box-shadow: 0 3px 5px 3px #cccccc;
+  box-shadow: 0 3px 5px 3px #cccccc;
+}
+
+.notecard .glyphicon {
+  font-size: 4.00em;
+  padding: 0.30em 0 0 0;
+  text-align: center;
+}
+
+div.byline {
+}
+
+ol.reference-list {
+  width: 100%;
+  font-size: 1.00em;
+}
+
+.side-meta {
+  font-size: 0.75em;
+  color: #999999;
+}
+.side-meta p {
+  text-align: left;
+}
+
+/* Sort this out at some point. */
+span.margin-note {
+  position: absolute;
+  left: 60.00em;
+  width: 40%;
+
+  font-size: 0.80em;
+  color: #999999;
+  text-align: justify;
+}
+span.margin-note img {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  span.margin-note {
+    left: 72.00em;
+  }
+}
+@media (max-width: 992px) {
+  span.margin-note {
+    position: static;
+    float: right;
+    width: 50%;
+    left: 100.00em;
+
+    margin: 1.00em 0 0 1.00em;
+    padding: 0 0 0 0.50em;
+
+    border-left-color: #999999;
+    border-left-width: 1px;
+    border-left-style: dotted;
+  }
+}
